@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\OdontoVision.API.props" />
+</Project>

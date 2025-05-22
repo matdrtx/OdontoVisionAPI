@@ -1,0 +1,16 @@
+@model OdontoVision.Application.ViewModels.ProcedimentoViewModel
+@{
+    ViewData["Title"] = "Detalhes do Procedimento";
+}
+<h1>Detalhes do Procedimento</h1>
+
+<div class="form-group">
+    <label>Nome:</label>
+    <p>@Model.Nome</p>
+</div>
+<div class="form-group">
+    <label>Preço:</label>
+    <p>@Model.Preco.ToString("C")</p>
+</div>
+
+<a asp-action="Index" class="btn btn-secondary">Voltar</a>

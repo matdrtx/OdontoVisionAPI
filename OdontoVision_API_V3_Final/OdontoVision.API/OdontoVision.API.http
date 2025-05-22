@@ -1,0 +1,6 @@
+@OdontoVision.API_HostAddress = http://localhost:5094
+
+GET {{OdontoVision.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

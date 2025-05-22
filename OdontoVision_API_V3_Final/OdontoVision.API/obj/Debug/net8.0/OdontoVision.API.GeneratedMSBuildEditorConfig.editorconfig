@@ -1,0 +1,67 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = OdontoVision.API
+build_property.RootNamespace = OdontoVision.API
+build_property.ProjectDir = C:\Users\mathe\Downloads\OdontoVision_API_V3_Atualizado(certo)\OdontoVision_API_V3_Final\OdontoVision.API\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\mathe\Downloads\OdontoVision_API_V3_Atualizado(certo)\OdontoVision_API_V3_Final\OdontoVision.API
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/mathe/Downloads/OdontoVision_API_V3_Atualizado(certo)/OdontoVision_API_V3_Final/OdontoVision.API/Views/Diagnostico/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlhZ25vc3RpY29cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathe/Downloads/OdontoVision_API_V3_Atualizado(certo)/OdontoVision_API_V3_Final/OdontoVision.API/Views/Diagnostico/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlhZ25vc3RpY29cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathe/Downloads/OdontoVision_API_V3_Atualizado(certo)/OdontoVision_API_V3_Final/OdontoVision.API/Views/Diagnostico/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlhZ25vc3RpY29cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathe/Downloads/OdontoVision_API_V3_Atualizado(certo)/OdontoVision_API_V3_Final/OdontoVision.API/Views/Diagnostico/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlhZ25vc3RpY29cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathe/Downloads/OdontoVision_API_V3_Atualizado(certo)/OdontoVision_API_V3_Final/OdontoVision.API/Views/Diagnostico/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlhZ25vc3RpY29cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathe/Downloads/OdontoVision_API_V3_Atualizado(certo)/OdontoVision_API_V3_Final/OdontoVision.API/Views/Paciente/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathe/Downloads/OdontoVision_API_V3_Atualizado(certo)/OdontoVision_API_V3_Final/OdontoVision.API/Views/Procedimento/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvY2VkaW1lbnRvXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathe/Downloads/OdontoVision_API_V3_Atualizado(certo)/OdontoVision_API_V3_Final/OdontoVision.API/Views/Procedimento/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvY2VkaW1lbnRvXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathe/Downloads/OdontoVision_API_V3_Atualizado(certo)/OdontoVision_API_V3_Final/OdontoVision.API/Views/Procedimento/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvY2VkaW1lbnRvXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathe/Downloads/OdontoVision_API_V3_Atualizado(certo)/OdontoVision_API_V3_Final/OdontoVision.API/Views/Procedimento/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvY2VkaW1lbnRvXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathe/Downloads/OdontoVision_API_V3_Atualizado(certo)/OdontoVision_API_V3_Final/OdontoVision.API/Views/Procedimento/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvY2VkaW1lbnRvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathe/Downloads/OdontoVision_API_V3_Atualizado(certo)/OdontoVision_API_V3_Final/OdontoVision.API/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

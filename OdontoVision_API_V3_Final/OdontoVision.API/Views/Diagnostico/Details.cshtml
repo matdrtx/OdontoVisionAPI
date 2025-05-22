@@ -1,0 +1,12 @@
+@model OdontoVision.Application.ViewModels.DiagnosticoViewModel
+@{
+    ViewData["Title"] = "Detalhes do Diagnóstico";
+}
+<h1>Detalhes do Diagnóstico</h1>
+
+<div class="form-group">
+    <label>Descrição:</label>
+    <p>@Model.Descricao</p>
+</div>
+
+<a asp-action="Index" class="btn btn-secondary">Voltar</a>

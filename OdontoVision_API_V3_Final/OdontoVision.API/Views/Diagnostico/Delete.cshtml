@@ -1,0 +1,17 @@
+@model OdontoVision.Application.ViewModels.DiagnosticoViewModel
+@{
+    ViewData["Title"] = "Deletar Diagnóstico";
+}
+<h1>Deletar Diagnóstico</h1>
+
+<p>Tem certeza de que deseja excluir o diagnóstico abaixo?</p>
+
+<div class="form-group">
+    <label>Descrição:</label>
+    <p>@Model.Descricao</p>
+</div>
+
+<form asp-action="Delete" method="post">
+    <button type="submit" class="btn btn-danger">Confirmar Exclusão</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

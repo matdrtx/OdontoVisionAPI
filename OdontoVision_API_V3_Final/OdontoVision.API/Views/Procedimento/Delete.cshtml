@@ -1,0 +1,21 @@
+@model OdontoVision.Application.ViewModels.ProcedimentoViewModel
+@{
+    ViewData["Title"] = "Deletar Procedimento";
+}
+<h1>Deletar Procedimento</h1>
+
+<p>Tem certeza de que deseja excluir o procedimento abaixo?</p>
+
+<div class="form-group">
+    <label>Nome:</label>
+    <p>@Model.Nome</p>
+</div>
+<div class="form-group">
+    <label>Preço:</label>
+    <p>@Model.Preco.ToString("C")</p>
+</div>
+
+<form asp-action="Delete" method="post">
+    <button type="submit" class="btn btn-danger">Confirmar Exclusão</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>
