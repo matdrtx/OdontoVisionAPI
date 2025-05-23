@@ -110,13 +110,5 @@ dotnet run
 3. Acesse via navegador:
 http://localhost:5094/swagger
 
-## Inspiração e Projeto Base
 
-Este README foi inspirado na estrutura de documentação clara do projeto:
 
-GitHub - sousa-sara/messaging-dotnet-rabbitmq
-
-## Equipe e Contato
-
-- Desenvolvido por [Seu Nome]
-- Contato: suporte@odontovision.com
