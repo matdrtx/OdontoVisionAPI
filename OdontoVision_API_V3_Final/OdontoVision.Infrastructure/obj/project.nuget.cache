@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VlkNrVN/bTo=",
+  "dgSpecHash": "Y+hd4D5mnDQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mathe\\Downloads\\OdontoVision_API_V3_Atualizado(certo)\\OdontoVision_API_V3_Final\\OdontoVision.Infrastructure\\OdontoVision.Infrastructure.csproj",
+  "projectFilePath": "C:\\Git\\OdontoVisionAPI\\OdontoVision_API_V3_Final\\OdontoVision.Infrastructure\\OdontoVision.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mathe\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0\\microsoft.entityframeworkcore.7.0.0.nupkg.sha512",

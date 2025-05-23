@@ -1215,11 +1215,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mathe\\Downloads\\OdontoVision_API_V3_Atualizado(certo)\\OdontoVision_API_V3_Final\\OdontoVision.Application\\OdontoVision.Application.csproj",
+      "projectUniqueName": "C:\\Git\\OdontoVisionAPI\\OdontoVision_API_V3_Final\\OdontoVision.Application\\OdontoVision.Application.csproj",
       "projectName": "OdontoVision.Application",
-      "projectPath": "C:\\Users\\mathe\\Downloads\\OdontoVision_API_V3_Atualizado(certo)\\OdontoVision_API_V3_Final\\OdontoVision.Application\\OdontoVision.Application.csproj",
+      "projectPath": "C:\\Git\\OdontoVisionAPI\\OdontoVision_API_V3_Final\\OdontoVision.Application\\OdontoVision.Application.csproj",
       "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mathe\\Downloads\\OdontoVision_API_V3_Atualizado(certo)\\OdontoVision_API_V3_Final\\OdontoVision.Application\\obj\\",
+      "outputPath": "C:\\Git\\OdontoVisionAPI\\OdontoVision_API_V3_Final\\OdontoVision.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1234,8 +1234,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\mathe\\Downloads\\OdontoVision_API_V3_Atualizado(certo)\\OdontoVision_API_V3_Final\\OdontoVision.Domain\\OdontoVision.Domain.csproj": {
-              "projectPath": "C:\\Users\\mathe\\Downloads\\OdontoVision_API_V3_Atualizado(certo)\\OdontoVision_API_V3_Final\\OdontoVision.Domain\\OdontoVision.Domain.csproj"
+            "C:\\Git\\OdontoVisionAPI\\OdontoVision_API_V3_Final\\OdontoVision.Domain\\OdontoVision.Domain.csproj": {
+              "projectPath": "C:\\Git\\OdontoVisionAPI\\OdontoVision_API_V3_Final\\OdontoVision.Domain\\OdontoVision.Domain.csproj"
             }
           }
         }

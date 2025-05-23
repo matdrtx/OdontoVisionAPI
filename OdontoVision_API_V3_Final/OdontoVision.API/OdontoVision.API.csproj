@@ -11,6 +11,7 @@
   <ItemGroup>
     <ProjectReference Include="..\OdontoVision.Application\OdontoVision.Application.csproj" />
     <ProjectReference Include="..\OdontoVision.Infrastructure\OdontoVision.Infrastructure.csproj" />
+    <ProjectReference Include="..\OdontoVision.ML\OdontoVision.ML.csproj" />
   </ItemGroup>
 
   <ItemGroup>

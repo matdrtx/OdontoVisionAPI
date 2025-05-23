@@ -108,3 +108,15 @@ C:\Users\mathe\Downloads\OdontoVision_API_V3_Atualizado(certo)\OdontoVision_API_
 C:\Users\mathe\Downloads\OdontoVision_API_V3_Atualizado(certo)\OdontoVision_API_V3_Final\OdontoVision.Domain\obj\Debug\net8.0\refint\OdontoVision.Domain.dll
 C:\Users\mathe\Downloads\OdontoVision_API_V3_Atualizado(certo)\OdontoVision_API_V3_Final\OdontoVision.Domain\obj\Debug\net8.0\OdontoVision.Domain.pdb
 C:\Users\mathe\Downloads\OdontoVision_API_V3_Atualizado(certo)\OdontoVision_API_V3_Final\OdontoVision.Domain\obj\Debug\net8.0\ref\OdontoVision.Domain.dll
+C:\Git\OdontoVisionAPI\OdontoVision_API_V3_Final\OdontoVision.Domain\bin\Debug\net8.0\OdontoVision.Domain.deps.json
+C:\Git\OdontoVisionAPI\OdontoVision_API_V3_Final\OdontoVision.Domain\bin\Debug\net8.0\OdontoVision.Domain.dll
+C:\Git\OdontoVisionAPI\OdontoVision_API_V3_Final\OdontoVision.Domain\bin\Debug\net8.0\OdontoVision.Domain.pdb
+C:\Git\OdontoVisionAPI\OdontoVision_API_V3_Final\OdontoVision.Domain\obj\Debug\net8.0\OdontoVision.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\OdontoVisionAPI\OdontoVision_API_V3_Final\OdontoVision.Domain\obj\Debug\net8.0\OdontoVision.Domain.AssemblyInfoInputs.cache
+C:\Git\OdontoVisionAPI\OdontoVision_API_V3_Final\OdontoVision.Domain\obj\Debug\net8.0\OdontoVision.Domain.AssemblyInfo.cs
+C:\Git\OdontoVisionAPI\OdontoVision_API_V3_Final\OdontoVision.Domain\obj\Debug\net8.0\OdontoVision.Domain.csproj.CoreCompileInputs.cache
+C:\Git\OdontoVisionAPI\OdontoVision_API_V3_Final\OdontoVision.Domain\obj\Debug\net8.0\OdontoVision.Domain.sourcelink.json
+C:\Git\OdontoVisionAPI\OdontoVision_API_V3_Final\OdontoVision.Domain\obj\Debug\net8.0\OdontoVision.Domain.dll
+C:\Git\OdontoVisionAPI\OdontoVision_API_V3_Final\OdontoVision.Domain\obj\Debug\net8.0\refint\OdontoVision.Domain.dll
+C:\Git\OdontoVisionAPI\OdontoVision_API_V3_Final\OdontoVision.Domain\obj\Debug\net8.0\OdontoVision.Domain.pdb
+C:\Git\OdontoVisionAPI\OdontoVision_API_V3_Final\OdontoVision.Domain\obj\Debug\net8.0\ref\OdontoVision.Domain.dll

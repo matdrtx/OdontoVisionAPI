@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdontoVision.Domain", "Odon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdontoVision.Infrastructure", "OdontoVision.Infrastructure\OdontoVision.Infrastructure.csproj", "{ED78F215-876D-4665-98F3-40A46F02C86B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdontoVision.ML", "OdontoVision.ML\OdontoVision.ML.csproj", "{DCB2C261-609F-4CE6-8AB0-EB856BFAE1E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{ED78F215-876D-4665-98F3-40A46F02C86B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED78F215-876D-4665-98F3-40A46F02C86B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED78F215-876D-4665-98F3-40A46F02C86B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCB2C261-609F-4CE6-8AB0-EB856BFAE1E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCB2C261-609F-4CE6-8AB0-EB856BFAE1E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCB2C261-609F-4CE6-8AB0-EB856BFAE1E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCB2C261-609F-4CE6-8AB0-EB856BFAE1E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

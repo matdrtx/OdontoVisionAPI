@@ -1,0 +1,13 @@
+C:\Git\OdontoVisionAPI\OdontoVision_API_V3_Final\OdontoVision.ML\bin\Debug\net8.0\OdontoVision.ML.deps.json
+C:\Git\OdontoVisionAPI\OdontoVision_API_V3_Final\OdontoVision.ML\bin\Debug\net8.0\OdontoVision.ML.dll
+C:\Git\OdontoVisionAPI\OdontoVision_API_V3_Final\OdontoVision.ML\bin\Debug\net8.0\OdontoVision.ML.pdb
+C:\Git\OdontoVisionAPI\OdontoVision_API_V3_Final\OdontoVision.ML\obj\Debug\net8.0\OdontoVision.ML.csproj.AssemblyReference.cache
+C:\Git\OdontoVisionAPI\OdontoVision_API_V3_Final\OdontoVision.ML\obj\Debug\net8.0\OdontoVision.ML.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\OdontoVisionAPI\OdontoVision_API_V3_Final\OdontoVision.ML\obj\Debug\net8.0\OdontoVision.ML.AssemblyInfoInputs.cache
+C:\Git\OdontoVisionAPI\OdontoVision_API_V3_Final\OdontoVision.ML\obj\Debug\net8.0\OdontoVision.ML.AssemblyInfo.cs
+C:\Git\OdontoVisionAPI\OdontoVision_API_V3_Final\OdontoVision.ML\obj\Debug\net8.0\OdontoVision.ML.csproj.CoreCompileInputs.cache
+C:\Git\OdontoVisionAPI\OdontoVision_API_V3_Final\OdontoVision.ML\obj\Debug\net8.0\OdontoVision.ML.sourcelink.json
+C:\Git\OdontoVisionAPI\OdontoVision_API_V3_Final\OdontoVision.ML\obj\Debug\net8.0\OdontoVision.ML.dll
+C:\Git\OdontoVisionAPI\OdontoVision_API_V3_Final\OdontoVision.ML\obj\Debug\net8.0\refint\OdontoVision.ML.dll
+C:\Git\OdontoVisionAPI\OdontoVision_API_V3_Final\OdontoVision.ML\obj\Debug\net8.0\OdontoVision.ML.pdb
+C:\Git\OdontoVisionAPI\OdontoVision_API_V3_Final\OdontoVision.ML\obj\Debug\net8.0\ref\OdontoVision.ML.dll
