@@ -1,114 +1,126 @@
+
 # OdontoVision.API
 
-API RESTful desenvolvida em ASP.NET Core com integração a Machine Learning (ML.NET), focada no gerenciamento odontológico: dentistas, pacientes, procedimentos e diagnósticos.
+A OdontoVision.API é uma aplicação backend robusta desenvolvida em ASP.NET Core 8, focada na gestão de clínicas odontológicas. Além das funcionalidades CRUD tradicionais, a solução inclui integração com machine learning usando ML.NET para a detecção de fraudes com base em transações simuladas.
 
-## Tecnologias Utilizadas
+---
 
-- ASP.NET Core 8
-- Entity Framework Core (com Oracle)
-- ML.NET — Para detecção de fraudes
-- Swashbuckle/Swagger — Documentação automática da API
-- PostgreSQL/Oracle — Base de dados (atualmente Oracle)
-- Visual Studio 2022
+## Visão Geral da Arquitetura
 
-## Estrutura do Projeto
+O projeto segue uma abordagem **Clean Architecture** com separação em camadas:
 
-OdontoVision_API_V3_Final/
-│
-├── OdontoVision.API/                 # Projeto principal da API
-│   ├── Controllers/                  # Endpoints REST
-│   ├── Models/                       # ViewModels, DTOs e entidades auxiliares
-│   ├── IA/                           # Camada de Machine Learning (IA)
-│   │   └── MLModel.zip               # Modelo ML treinado
-│   ├── Program.cs                   # Entry point com DI + Swagger
-│   └── appsettings.json             # Configurações (connection strings)
-│
-├── OdontoVision.ML/                 # Biblioteca de integração com ML.NET
-│   ├── FraudModelService.cs         # Serviço de predição
-│   ├── FraudInput.cs                # Classe de entrada de dados
-│   └── FraudPrediction.cs           # Classe de saída/predição
-│
-├── OdontoVision.ML.Training/       # Projeto de Console para treinar o modelo
-│   ├── fraud-data.csv               # Dados sintéticos de treino
-│   └── Program.cs                   # Pipeline de treinamento ML.NET
+- **OdontoVision.API**: camada de apresentação, responsável por expor endpoints REST.
+- **OdontoVision.Application**: contém regras de negócio e serviços.
+- **OdontoVision.Domain**: define as entidades e interfaces do domínio.
+- **OdontoVision.Infrastructure**: implementação de repositórios, configuração do banco de dados.
+- **OdontoVision.ML**: camada dedicada à predição com ML.NET.
 
-## Funcionalidades Principais
+```
+📦 OdontoVision_API_V3_Final/
+├── 📁 OdontoVision.API
+│   ├── Controllers/
+│   ├── IA/
+│   │   └── MLModel.zip
+│   └── Program.cs
+├── 📁 OdontoVision.Application
+├── 📁 OdontoVision.Domain
+├── 📁 OdontoVision.Infrastructure
+├── 📁 OdontoVision.ML
+│   ├── FraudModelService.cs
+│   └── Model Classes
+├── 📁 OdontoVision.ML.Training
+│   └── Program.cs (Treinamento)
+```
 
-- Cadastro e consulta de dentistas, pacientes e procedimentos
-- Registro de diagnósticos vinculados
-- Integração com IA para detecção de fraudes com base em variáveis financeiras
-- Treinamento do modelo com dados sintéticos
-- Visualização via Swagger UI
+---
 
-## Inteligência Artificial (ML.NET)
+## Endpoints Disponíveis
 
-A API integra um modelo de classificação binária treinado com ML.NET para prever potenciais fraudes com base em dados como:
+### Dentistas
+- `GET /api/Dentista`
+- `GET /api/Dentista/{id}`
+- `POST /api/Dentista`
+- `PUT /api/Dentista/{id}`
+- `DELETE /api/Dentista/{id}`
 
-- Valor da transação
-- Tempo desde a última transação
-- Se a transação é estrangeira
-- Se é de país de alto risco
+### Pacientes
+- `GET /api/Paciente`
+- `GET /api/Paciente/{id}`
+- `POST /api/Paciente`
+- `PUT /api/Paciente/{id}`
+- `DELETE /api/Paciente/{id}`
 
-### Modelo
+### Procedimentos
+- `GET /api/Procedimento`
+- `GET /api/Procedimento/{id}`
+- `POST /api/Procedimento`
+- `PUT /api/Procedimento/{id}`
+- `DELETE /api/Procedimento/{id}`
 
-- Localização: OdontoVision.API/Models/MLModel.zip
-- Gerado com o projeto OdontoVision.ML.Training a partir de fraud-data.csv
+### Diagnósticos
+- `GET /api/Diagnostico`
+- `GET /api/Diagnostico/{id}`
+- `POST /api/Diagnostico`
+- `PUT /api/Diagnostico/{id}`
+- `DELETE /api/Diagnostico/{id}`
 
-### ReTreinar
+### Predição de Fraude (IA)
+- `POST /api/IA/DetectFraud`
 
-cd OdontoVision.ML.Training
-dotnet run
-
-O novo modelo será salvo e pode substituir o antigo.
-
-## Endpoints
-
-### Autenticação
-
-POST /api/Auth/login  
-POST /api/Auth/register
-
-### Entidades
-
-GET /api/Dentista  
-GET /api/Paciente  
-GET /api/Diagnostico  
-GET /api/Procedimento
-
-### Diagnóstico
-
-POST /api/Diagnostico
-
-### IA - Fraude
-
-POST /api/IA/DetectFraud
-
-Body esperado:
+Payload:
+```json
 {
-  "amount": 2500.0,
-  "timeSinceLastTransaction": 3.2,
+  "amount": 3000.5,
+  "timeSinceLastTransaction": 2.5,
   "isForeignTransaction": true,
   "isHighRiskCountry": false
 }
+```
 
 Resposta:
+```json
 {
-  "amount": 2500.0,
-  "isFraud": false,
-  "probability": 0.12,
-  "score": -2.13
+  "isFraud": true,
+  "probability": 0.91,
+  "score": 4.13
 }
+```
 
-## Execução
+---
 
-1. Configure o banco Oracle no appsettings.json
-2. Rode a API:
+## Exemplo de Teste com Postman
 
-cd OdontoVision.API  
+**POST /api/Dentista**
+```json
+{
+  "nome": "Dr. Carlos Silva",
+  "cro": "12345-SP",
+  "especialidade": "Ortodontia",
+  "email": "carlos@odontovision.com",
+  "telefone": "(11)91234-5678"
+}
+```
+
+**POST /api/Diagnostico**
+```json
+{
+  "descricao": "Cárie avançada no molar superior direito.",
+  "dataDiagnostico": "2025-05-21T00:00:00",
+  "pacienteId": 1,
+  "dentistaId": 1
+}
+```
+
+---
+
+## Execução da API
+
+```bash
+cd OdontoVision.API
 dotnet run
+```
 
-3. Acesse via navegador:
-http://localhost:5094/swagger
-
+Swagger estará disponível em:
+[http://localhost:5094/swagger](http://localhost:5094/swagger)
 
 
